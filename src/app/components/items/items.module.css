@@ -1,0 +1,90 @@
+.container{
+    background-image: url('/assets/divide.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.innerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    width: 80%;
+    margin: 5%;
+}
+.frame{
+    height: 90%;
+}
+.title {
+    font-family: Oswald;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 74.1px;
+    letter-spacing: 0.03em;
+    color: white;
+    text-shadow: 3px 3px 0px #800020; 
+    text-align: center;
+  }
+  
+  .line {
+    display: block;
+    height: 2px;
+    width: 5%; 
+    background-color: #857878;
+  }
+  .space{
+    flex: 1; 
+  border-bottom: 3px dotted #ccc; 
+  margin: 0 8px;
+  }
+  .titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px; 
+    width: 100%; 
+    margin-top: 5%;
+  }
+
+  .nameandPrice{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .itemName,.itemPrice
+  {
+    font-family: Oswald;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38.53px;
+    letter-spacing: 0.03em;
+    color:#FFFFFF;
+  }
+
+  .itemdescription{
+    font-family: Kelly Slab;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.82px;
+    color: #FFFFFF;
+    opacity: 75%;
+  }
+
+  .menu
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 7%;
+  }
+
+  .menuItems{
+    width: 40%;
+    margin-bottom:3%;
+  }

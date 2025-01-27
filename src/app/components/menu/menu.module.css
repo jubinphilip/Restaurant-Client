@@ -1,0 +1,42 @@
+.container{
+    background-image: url('/assets/divide.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.buttonContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+.addMenu{
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+.item{
+    color: white;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-align: left;
+    background-color: black;
+    border: 1px solid #0796EF ;
+    padding: 10px;
+    width: 115px;
+    height: 50px;
+    text-align: center;
+}
+.item:hover{
+    background-color: #0796EF;
+    cursor: pointer;
+}
