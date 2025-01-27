@@ -21,7 +21,7 @@ interface ModalProps {
   function handleSubmit() {
     console.log("Submitted Data:", record);
     axios
-      .post("http://localhost:9000/user/add-menu", record)
+      .post("https://restaurant-server-yc21.onrender.com/user/add-menu", record)
       .then((response) => {
         alert(response.data.message || "Menu item added successfully!");
       })
