@@ -14,7 +14,7 @@ function Menu() {
 const[state,setState]=useState(Boolean)
   useEffect(() => {
     axios
-      .get("http://localhost:9000/user/get-menu")
+      .get("https://restaurant-server-yc21.onrender.com/user/get-menu")
       .then((response) => {
         if (Array.isArray(response.data.data)) {
           setItems(response.data.data);
