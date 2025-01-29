@@ -88,3 +88,10 @@
     width: 40%;
     margin-bottom:3%;
   }
+
+  @media (max-width: 768px) {
+    .menu{
+      display: flex;
+      flex-direction: column;
+    }
+  }

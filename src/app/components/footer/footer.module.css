@@ -54,3 +54,9 @@ line-height: 16.8px;
 letter-spacing: 0.03em;
 color: #857878;
 }
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
